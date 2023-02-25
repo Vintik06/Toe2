@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.cells {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    border: 1px black solid;
+    cursor: pointer;
+    text-align: center;
+    font-size: 60px;
+}
+
+.disabled {
+    pointer-events: none;
+}
